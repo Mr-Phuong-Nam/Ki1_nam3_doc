@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,legalpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{fontawesome}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{fontawesome}
+\usepackage{tikz}
+
+\usepackage[scale=0.9]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{VIET} % Your first name
+\familyname{NGUYEN} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Tangermuender Str. 118, 12627 Berlin}{}
+\mobile{(+49) 174 8039239}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{nhviet1009@gmail.com}
+\homepage{https://de.linkedin.com/in/vietnguyen-tum}{https://linkedin.com/in/vietnguyen-tum}
+
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+% \quote{Application for a full-time job on the topic of Machine Learning}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+    \cventry{Oct 2015 - March 2018}{Master of Science in Informatics}{}{Technical University of Munich}{Munich}{Major in Artificial Intelligence and Robotics, specialize in Machine Learning.\\
+Final grade: 1.7/1.0 - Degree classification: Good.}  % Arguments not required can be left empty
+%\cventry{2009-2014}{Degree of Engineer in Data Communication and Computer Networks}{}{}{}{School of Information and Communication Technology, Hanoi University of Science and Technology, Hanoi.\\
+
+\cventry{Oct 2009 - Jun 2014}{Degree of Engineer in Data Communication and Computer Networks}{}{Hanoi University of Science and Technology}{Hanoi}{
+GPA: 3.22/4.0 - Degree classification: Good.}
+
+%\cventry{2006-2009}{High School Education}{}{}{}{Doan Ket - Hai Ba Trung high School, Hanoi.}
+
+% \section{Achievements \& Honors}
+
+% \cventry{2010-2012}{University scholarship}{}{}{}{For excellent achievement in academic semesters: Semester 3,4 and 5,\\
+% Hanoi University Of Science and Technology, Hanoi.}  % Arguments not required can be left empty
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{September 2022 - now}{Senior AI engineer}{\textsc{Sporttotal}}{Berlin}{}{Work as a senior AI engineer with the following daily tasks: \\
+- Create AI analytics for different sports\\
+- Improve auto-production\\
+- Work on highlight extraction project\\
+- Improve player and ball detectors\\
+- Work on semi-auto annotation project
+}
+\cventry{December 2022 - now}{Online lecturer}{}{}{}{I am teaching the following online courses on the weekend for Vietnamese students: \\
+- Essential Maths for Data Science/Machine Learning/Deep Learning course\\
+- Basic Data Science/Machine Learning/Python course\\
+- Advanced Data Science/Machine Learning/Python course\\
+- Basic Deep Learning for Computer Vision course\\
+- Advanced Deep Learning for Computer Vision course}
+\cventry{April 2021 - August 2022}{Data scientist}{\textsc{KickID GmbH}}{Berlin}{}{Work as a data scientist with the following tasks: \\
+- Build end-to-end pipeline for tracking and analysing 5vs5 football training sessions\\
+- Visualize result from each component (detectors, classifiers, trackers, transformers,...) in the pipeline with different perspectives\\
+% - Work with data analysts to analyse actions and events in sessions\\
+- Work with labelling company in Vietnam for building and maintaining annotation database\\
+- Dockerise, deploy and maintain the product in AWS.}
+\cventry{November 2019 - March 2021}{Deep learning engineer}{\textsc{Signatrix GmbH}}{Berlin}{}{Work as a deep learning engineer with the following daily tasks: \\
+- Maintain and improve current self-checkout system.\\
+- Research on and build RNN models for taking advantage of temporal information as well as addressing difficulties such as occlusion and motion blur.\\
+- Build and release source code on github for arxiv papers.\\
+- Build conversion for models (detector and classifier) to bring trained models to AI edge devices (Jetson Nano/Xavier NX).
+% - Investigate on alternative metrics for evaluating models' performance.
+}
+
+\cventry{May 2019 - October 2019}{Data scientist}{\textsc{Popcore GmbH}}{Berlin}{}{Work as a data scientist with the following daily tasks: \\
+- Develop an analytics tool with data engineers to provide actionable insights into audience behaviour, gaming efficiencies and performance metrics.\\
+- Design, build, and launch metric reports and dashboards.\\
+- Determine predictive models and methods for data analysis and model analysis.\\
+% - Iterate the data processing and modelling process rapidly and creatively to derive non-linear solutions that are easily scalable.\\
+- Formulate business goals into analytics tasks.}
+
+\cventry{March 2018 - April 2019}{Data scientist}{\textsc{Search Talent GmbH}}{Berlin}{}{Work as a data scientist with the following tasks: \\
+- Build database by doing web scraping and data cleaning.\\
+- Build and maintain a job matching model (without labelled data).\\
+- Investigate and implement machine learning models for text classification tasks.\\
+- Build email-generating application for HR clients.}
+
+\cventry{Nov 2016 - April 2018}{Data scientist and Machine Learning Working student}{\textsc{Experteer GmbH}}{Munich}{}{}
+
+% {Work as a data scientist and machine learning engineer with the following tasks: \\
+% - Analyze data of companies and salaries and implement them into job classification framework.\\
+% - Train and improve machine learning models so that the data flow is reliable, quick and stable.\\
+% - Implement deep learning models (CNNs, RNNs) for document classification and regression tasks.\\
+% - Investigate and implement feature extraction and feature selection techniques to clean data.}
+
+% \cventry{Oct 2017 - March 2018}{Student/research assistant}{\textsc{Chair of Computer Vision and Pattern Recognition}}{Technical University of Munich, Munich}{}{Work as a student/research assistant with the following tasks: \\
+% - Build a web application with functions similar to Google image search engine.\\
+% - Perform computer vision tasks (image transformation and enhancement, feature extraction, visualization, \dots).\\
+% - Re-implement and improve deep learning models for computer vision in specific datasets.
+% }
+
+% \subsection{Academic}
+% \cventry{Sep 2017 - Feb 2018}{Master thesis: "Scalable Image Search with Deep Image Representation"}{\textsc{Chair of Computer Vision and Pattern Recognition}}{Technical University of Munich, Munich}{Grade: 1.0/1.0}{
+% Description:  In my thesis, I build a model which could identify similar images within a huge database, given a query image. Query images would be taken anywhere, from the Internet or directly from a cell phone. My model could be used in real-time application, returning the most similar image to a query image in 1 second from a database composed of 50000 images. Furthermore, when new images are added to database, we do not have to re-train the whole model, which is an outstanding advantage in comparison with many other up-to-date Image Retrieval models. My thesis is carried out in Keras framework.}
+
+% \subsection{Massive Open Online Course}
+% \cventry{Aug 2016}{edX: Introduction to Apache Spark}{Grade: 100/100}{}{}{Description: The content includes Spark$'$s architecture, programming model, commonly used APIs and Spark$'$s web user interface (UI), how to recognize common coding errors and proactively prevent errors. Main focus are Spark Core and Spark SQL. The course assignments include word counting and Web Server Log Mining using real world datasets and parallel processing with PySpark.}
+% \cventry{Aug 2016}{edX: Big Data Analysis with Apache Spark}{Grade: 100/100}{}{}{Description: This course attempts to articulate the expected output of Data Scientists and how to use PySpark to deliver against these expectations. The course assignments include prediction using ML algorithms, Collaborative Filtering, and Textual Entity Recognition exercises that guide how to manipulate datasets using parallel processing with PySpark, Spark SQL, and Spark Machine Learning Pipelines.}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Skills \& Background Knowledge}
+% \cvitem{Programming}{\textsc{Python}, \textsc{C/C++}, \textsc{SQL}, \textsc{Bash Script}}
+% \cvitem{Language}{English: Professional Working Proficiency, German: Very basic}
+% \cvitem{Framework}{Tensorflow, Keras, Pytorch, Scikit-learn, Matplotlib, OpenCV, Pandas, NLTK}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Languages}
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{English: Professional Working Proficiency }{German: Very basic}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+\section{Github projects}
+\cvitem{\textbf{Url}}{\href{https://github.com/uvipen}{My Github}}
+\cvitem{Framework}{Tensorflow (3 projects), Pytorch (15 projects), others (8 projects)}
+\cvitem{Field}{Natural Language Processing (5 projects), Computer Vision (8 projects), Reinforcement Learning (9 projects), others (4 projects)}
+\cvitem{Stars}{10-100 (13 projects), 101-500 (9 projects), 501-1000 (3 projects), >1000 (1 project)}
+
+%fac\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{Play sports (Football and badminton)}{Make Kirigami}
+%\cvlistdoubleitem{Robotics}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

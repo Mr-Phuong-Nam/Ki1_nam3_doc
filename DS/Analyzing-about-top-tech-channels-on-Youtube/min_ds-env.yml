@@ -1,0 +1,29 @@
+# Last update: 24/12/2023
+name: DS_channels_project-env
+channels:
+- conda-forge
+dependencies:
+- git
+- jupyterlab
+- python=3.8.8
+- requests
+- requests-cache
+- matplotlib
+- numpy
+- pandas=1.5.3
+- openpyxl # Help pandas read excel files
+- scikit-learn
+- nbdime
+- seaborn
+- nltk
+- pycountry
+- transformers
+- emoji
+- wordcloud
+- flask
+- joblib
+- scipy
+- pytorch
+- plotly
+
+

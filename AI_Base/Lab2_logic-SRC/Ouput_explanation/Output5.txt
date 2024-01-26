@@ -1,0 +1,24 @@
+-P OR Q OR R     |                               
+-R OR S OR -P    |                               
+-Q OR -S OR P    |                               
+-P OR -Q OR -R   |                               
+-P               | (negation of α)               
+-S               | (negation of α)                  
+-----------------|--------------------- 
+-P OR Q OR S     | (1 resolves with 2)         
+-P OR -R         | (2 resolves with 6)       
+-Q OR -R OR -S   | (3 resolves with 4)           
+-Q OR -S         | (3 resolves with 5)       
+-----------------|---------------------
+-P OR Q          | (1 resolves with 9)
+-P OR R OR -S    | (1 resolves with 11)
+-----------------|---------------------
+-Q OR R OR -S    | (3 resolves with 14)   
+-P OR -Q OR -S   | (4 resolves with 14)   
+-P OR -S         | (9 resolves with 14)
+-P OR -R OR -S   | (10 resolves with 13)   
+-----------------|---------------------
+-P OR Q OR -S    | (1 resolves with 19)
+-P OR Q OR -R    | (8 resolves with 19)
+-----------------|---------------------
+NO               |                   

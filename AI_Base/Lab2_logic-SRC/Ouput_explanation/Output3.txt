@@ -1,0 +1,18 @@
+-A OR B OR -D       |            
+-C OR D OR E        |            
+-C OR A             |    
+-D                  | (negation of α) 
+-E                  | (negation of α) 
+--------------------|----------------                 
+-A OR B OR -C OR E  | (1 resolves with 2)              
+B OR -C OR -D       | (1 resolves with 3)           
+-C OR E             | (2 resolves with 4)   
+-C OR D             | (2 resolves with 5)   
+--------------------|----------------              
+-A OR B OR -C       | (1 resolves with 10)           
+B OR -C OR E        | (2 resolves with 8)           
+-C                  | (4 resolves with 10)
+B OR -C             | (8 resolves with 10)   
+--------------------|----------------      
+NO                  |
+
